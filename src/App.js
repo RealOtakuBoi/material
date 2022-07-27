@@ -1,10 +1,19 @@
-
+import { Sidebar } from "./Components/Sidebar";
+import { Feed } from "./Components/Feed";
+import { Rightbar } from "./Components/Rightbar";
+import { Box, Stack } from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Box className="App">
+      {/* Navbar */}
+      <Stack direction='row' gap={4} justifyContent='space-between'>
+      <Sidebar/>
+      <Feed/>
+      <Rightbar/>
+      </Stack>
+    </Box>
+
   );
 }
 
