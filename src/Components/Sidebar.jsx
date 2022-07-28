@@ -12,7 +12,7 @@ import PersonIcon from "@mui/icons-material/Person";
 import TextSnippetIcon from "@mui/icons-material/TextSnippet";
 import StoreIcon from "@mui/icons-material/Store";
 import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
-import DarkModeIcon from '@mui/icons-material/DarkMode';
+import DarkModeIcon from "@mui/icons-material/DarkMode";
 
 export const Sidebar = () => {
   return (
