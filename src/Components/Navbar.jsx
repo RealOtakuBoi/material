@@ -1,6 +1,5 @@
 
 import {AppBar, Toolbar, styled, Typography, Box, InputBase, Badge, Avatar} from '@mui/material'
-import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { useState } from 'react';
